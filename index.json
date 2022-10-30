@@ -1,0 +1,82 @@
+[
+    {
+     "id": "1",
+     "name": "Jalapeño Popper Dip",
+     "imgURL": "https://cdn.loveandlemons.com/wp-content/uploads/2022/10/jalapeno-popper-dip-1-580x870.jpg",
+     "ingredients": "Jalapeños, garlic powder, onion powder, smoked paprika, sharp cheddar cheese, panko bread crumbs, chives, sea salt.",
+     "price": "10"
+    },
+    {
+     "id": "2",
+     "name": "Buffalo Cauliflower Wings",
+     "imgURL": "https://cdn.loveandlemons.com/wp-content/uploads/2022/10/buffalo-cauliflower-recipe-580x835.jpg",
+     "ingredients": "Cauliflower, flower, cornstarch, garlic powder, onion powder, paprika, sea salt.",
+     "price": "10"
+    },
+    {
+     "id": "3",
+     "name": "Corn Dip",
+     "imgURL": "https://cdn.loveandlemons.com/wp-content/uploads/2022/08/corn-dip-1-580x830.jpg",
+     "ingredients": "Fresh sweet corn, Greek yogurt, mayo, lime juice, garlic powder, onion powder, scallions, jalapeño, cotija cheese, cilantro, sea salt.",
+     "price": "10"
+    },
+    {
+     "id": "4",
+     "name": "Eggplant Caponata",
+     "imgURL": "https://cdn.loveandlemons.com/wp-content/uploads/2022/08/eggplant-caponata-1-580x870.jpg",
+     "ingredients": "Eggplant, celery, onion, garlic, peppers, tomatoes, tomato paste, capers, vinegar, sugar, raisins, olive oil, parsley, basil, salt, pepper.",
+     "price": "10"
+    },
+    {
+     "id": "5",
+     "name": "Mezze Platter",
+     "imgURL": "https://cdn.loveandlemons.com/wp-content/uploads/2022/08/mezze-platter-1-580x789.jpg",
+     "ingredients": "Feta, muhammara, tabbouleh, bread, tomatoes, cucumbers, radishes, artichoke hearts, green and kalamata olives, feta, lemon, mint, parsley.",
+     "price": "10"
+    },
+    {
+     "id": "6"
+    },
+    {
+     "id": "7"
+    },
+    {
+     "id": "8"
+    },
+    {
+     "id": "9"
+    },
+    {
+     "id": "10"
+    },
+    {
+     "id": "11"
+    },
+    {
+     "id": "12"
+    },
+    {
+     "id": "13"
+    },
+    {
+     "id": "14"
+    },
+    {
+     "id": "15"
+    },
+    {
+     "id": "16"
+    },
+    {
+     "id": "17"
+    },
+    {
+     "id": "18"
+    },
+    {
+     "id": "19"
+    },
+    {
+     "id": "20"
+    }
+   ]
