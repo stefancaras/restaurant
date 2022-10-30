@@ -9,9 +9,9 @@ const createTable = () => {
 		let cell3 = row.insertCell(2);
 		let cell4 = row.insertCell(3);
 		cell1.innerHTML = `<img class="cartImg" src='${item.imgURL}' />`;
-		cell2.innerHTML = `<p class=""><b>${item.name}</b></p>
+		cell2.innerHTML = `<p class="niconne">${item.name}</p>
 		<p class="">${item.ingredients}</p>`;
-		cell3.textContent = `$${item.price}`;
+		cell3.innerHTML = `<p class="niconne">$${item.price}</p>`;
 		cell4.innerHTML = `<a class="greenBtn marginLeft" href="details.html?id=${item.id}">
 		<i class="fa fa-info-circle marginRight"></i>Details</a>`
 	});

@@ -35,48 +35,10 @@
      "price": "10"
     },
     {
-     "id": "6"
-    },
-    {
-     "id": "7"
-    },
-    {
-     "id": "8"
-    },
-    {
-     "id": "9"
-    },
-    {
-     "id": "10"
-    },
-    {
-     "id": "11"
-    },
-    {
-     "id": "12"
-    },
-    {
-     "id": "13"
-    },
-    {
-     "id": "14"
-    },
-    {
-     "id": "15"
-    },
-    {
-     "id": "16"
-    },
-    {
-     "id": "17"
-    },
-    {
-     "id": "18"
-    },
-    {
-     "id": "19"
-    },
-    {
-     "id": "20"
+     "id": "6",
+     "name": "Ginger Miso Soup with Soba & Turnips",
+     "imgURL": "https://cdn.loveandlemons.com/wp-content/uploads/2015/01/IMG_2014_11_17_01629-highres.jpg",
+     "ingredients": "Kombu, white miso paste, ginger and green onions, soy sauce, tamari, veggies, soba noodles, tofu.",
+     "price": "10"
     }
-   ]
+]
