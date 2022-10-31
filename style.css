@@ -9,8 +9,6 @@
 }
 body {
   font-family: sans-serif;
-  background-color: #222222;
-  color: white;
 }
 .loader{
     position: relative;
@@ -25,6 +23,8 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  background: url(./img/restaurant2.jpg) no-repeat center center fixed; 
+  background-size: cover;
   width: 100%;
   min-height: 100vh;
 }
@@ -184,6 +184,10 @@ body {
 }
 
 /* Tags */
+h1 {
+  color: #181818;
+  text-shadow: 2px 2px #ffffff;
+}
 a {
   text-decoration: none;
 }
@@ -261,7 +265,7 @@ hr {
 .flexWrapCenter {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 .dontAlign{
@@ -307,7 +311,7 @@ hr {
   color: #375a7f;
 }
 .marginTop {
-  margin-top: 100px;
+  margin-top: 60px;
 }
 .marginRight {
   margin-right: 0.4rem;
@@ -327,9 +331,9 @@ hr {
 .paddingBottom {
   padding-bottom: 1rem;
 }
-.centerAbs {
+.bottomAbs {
   position: absolute;
-  top: 50%;
+  bottom: 0%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -339,4 +343,72 @@ hr {
 .niconne {
   font-family: "Niconne";
   font-size: 2rem;
+}
+.fancy-border {
+  border: 25px solid #181818;
+  border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='75'%3E%3Cg fill='none' stroke='%23181818' stroke-width='2'%3E%3Cpath d='M1 1h73v73H1z'/%3E%3Cpath d='M8 8h59v59H8z'/%3E%3Cpath d='M8 8h16v16H8zM51 8h16v16H51zM51 51h16v16H51zM8 51h16v16H8z'/%3E%3C/g%3E%3Cg fill='%23181818'%3E%3Ccircle cx='16' cy='16' r='2'/%3E%3Ccircle cx='59' cy='16' r='2'/%3E%3Ccircle cx='59' cy='59' r='2'/%3E%3Ccircle cx='16' cy='59' r='2'/%3E%3C/g%3E%3C/svg%3E") 25;
+}
+.button {
+  --offset: 10px;
+  --border-size: 2px;
+  display: block;
+  position: relative;
+  padding: 1.5em 3em;
+  appearance: none;
+  border: 0;
+  background: transparent;
+  color: #181818;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 0;
+  box-shadow: inset 0 0 0 var(--border-size) currentcolor;
+  transition: background 0.8s ease;
+}
+.button:hover {
+  background: rgba(100, 0, 0, .03);
+}
+.button__horizontal, .button__vertical {
+  position: absolute;
+  top: var(--horizontal-offset, 0);
+  right: var(--vertical-offset, 0);
+  bottom: var(--horizontal-offset, 0);
+  left: var(--vertical-offset, 0);
+  transition: transform 0.8s ease;
+  will-change: transform;
+}
+.button__horizontal::before, .button__vertical::before {
+  content: '';
+  position: absolute;
+  border: inherit;
+}
+.button__horizontal {
+  --vertical-offset: calc(var(--offset) * -1);
+  border-top: var(--border-size) solid currentcolor;
+  border-bottom: var(--border-size) solid currentcolor;
+}
+.button__horizontal::before {
+  top: calc(var(--vertical-offset) - var(--border-size));
+  bottom: calc(var(--vertical-offset) - var(--border-size));
+  left: calc(var(--vertical-offset) * -1);
+  right: calc(var(--vertical-offset) * -1);
+}
+.button:hover .button__horizontal {
+  transform: scaleX(0);
+}
+.button__vertical {
+  --horizontal-offset: calc(var(--offset) * -1);
+  border-left: var(--border-size) solid currentcolor;
+  border-right: var(--border-size) solid currentcolor;
+}
+.button__vertical::before {
+  top: calc(var(--horizontal-offset) * -1);
+  bottom: calc(var(--horizontal-offset) * -1);
+  left: calc(var(--horizontal-offset) - var(--border-size));
+  right: calc(var(--horizontal-offset) - var(--border-size));
+}
+.button:hover .button__vertical {
+  transform: scaleY(0);
 }
