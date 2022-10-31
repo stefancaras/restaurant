@@ -4,41 +4,62 @@
      "name": "Jalapeño Popper Dip",
      "imgURL": "https://cdn.loveandlemons.com/wp-content/uploads/2022/10/jalapeno-popper-dip-1-580x870.jpg",
      "ingredients": "Jalapeños, garlic powder, onion powder, smoked paprika, sharp cheddar cheese, panko bread crumbs, chives, sea salt.",
-     "price": "10"
+     "price": "10",
+     "category": "appetizers",
+     "description": "This jalapeño popper dip is what you’d get if you flipped regular jalapeño poppers inside out. Instead of stuffing a creamy, cheesy mixture into the jalapeños, you chop up the jalapeños and stir them into a creamy, cheesy dip. I’m warning you now: it is insanely delicious. This jalapeño popper dip delivers all the rich, smoky, tangy, spicy flavor you look for in a classic jalapeño popper, AND you get to scoop it up with tortilla chips, which add amazing salty crunch. Make it for your next party or game day get-together, and it will be gone in minutes."
     },
     {
      "id": "2",
      "name": "Buffalo Cauliflower Wings",
      "imgURL": "https://cdn.loveandlemons.com/wp-content/uploads/2022/10/buffalo-cauliflower-recipe-580x835.jpg",
      "ingredients": "Cauliflower, flower, cornstarch, garlic powder, onion powder, paprika, sea salt.",
-     "price": "10"
+     "price": "10",
+     "category": "appetizers",
+     "description": "In the last couple of years, buffalo cauliflower wings, a plant-based spin on buffalo chicken wings, have become a classic game day snack. But after testing and perfecting this recipe, I’m here to tell you that buffalo cauliflower is wayyyy too good to only make on game day. I’ve been whipping it up for fall gatherings and movie nights, for TV binge sessions and even the occasional lunch or dinner. It’s crispy on the edges and tender in the middle, spicy, tangy, and a little bit sweet. Try one floret erm, wing, and I promise, you’ll be back for more before you know it."
     },
     {
      "id": "3",
      "name": "Corn Dip",
      "imgURL": "https://cdn.loveandlemons.com/wp-content/uploads/2022/08/corn-dip-1-580x830.jpg",
      "ingredients": "Fresh sweet corn, Greek yogurt, mayo, lime juice, garlic powder, onion powder, scallions, jalapeño, cotija cheese, cilantro, sea salt.",
-     "price": "10"
+     "price": "10",
+     "category": "appetizers",
+     "description": "This corn dip is insanely delicious. A creamy, tangy combo of mayo and Greek yogurt coats juicy, smoky grilled corn kernels, jalapeños, and green onions. Lime juice makes it fresh and bright, and big drizzles of hot sauce add an extra kick. Yum, right?! Well, pop it all in the fridge for an hour or so, and the flavors will reach a whole new level. They meld into a sweet and spicy, rich and refreshing balance that’s downright irresistible. This corn dip recipe is designed for serving a crowd, but it’s so tasty that Jack and I have polished it off on our own in a single sitting. I think you’ll love it too!"
     },
     {
      "id": "4",
      "name": "Eggplant Caponata",
      "imgURL": "https://cdn.loveandlemons.com/wp-content/uploads/2022/08/eggplant-caponata-1-580x870.jpg",
      "ingredients": "Eggplant, celery, onion, garlic, peppers, tomatoes, tomato paste, capers, vinegar, sugar, raisins, olive oil, parsley, basil, salt, pepper.",
-     "price": "10"
+     "price": "10",
+     "category": "appetizers",
+     "description": "Silky, sweet, and sour, this eggplant caponata recipe is a delicious summer appetizer. Serve it on crostini with lots of fresh basil for garnish!"   
     },
     {
      "id": "5",
      "name": "Mezze Platter",
      "imgURL": "https://cdn.loveandlemons.com/wp-content/uploads/2022/08/mezze-platter-1-580x789.jpg",
      "ingredients": "Feta, muhammara, tabbouleh, bread, tomatoes, cucumbers, radishes, artichoke hearts, green and kalamata olives, feta, lemon, mint, parsley.",
-     "price": "10"
+     "price": "10",
+     "category": "appetizers",
+     "description": "This mezze platter is perfect for serving a crowd! Filled with fresh veggies, pita, and assorted spreads and dips, it offers a little something for everyone."
     },
     {
      "id": "6",
      "name": "Ginger Miso Soup with Soba & Turnips",
      "imgURL": "https://cdn.loveandlemons.com/wp-content/uploads/2015/01/IMG_2014_11_17_01629-highres.jpg",
      "ingredients": "Kombu, white miso paste, ginger and green onions, soy sauce, tamari, veggies, soba noodles, tofu.",
-     "price": "10"
+     "price": "10",
+     "category": "soups",
+     "description": "This jalapeño popper dip is what you’d get if you flipped regular jalapeño poppers inside out. Instead of stuffing a creamy, cheesy mixture into the jalapeños, you chop up the jalapeños and stir them into a creamy, cheesy dip. I’m warning you now: it is insanely delicious. This jalapeño popper dip delivers all the rich, smoky, tangy, spicy flavor you look for in a classic jalapeño popper, AND you get to scoop it up with tortilla chips, which add amazing salty crunch. Make it for your next party or game day get-together, and it will be gone in minutes."
+    },
+    {
+    "id": "7",
+    "name": "Wild Rice Soup",
+    "imgURL": "https://cdn.loveandlemons.com/wp-content/uploads/2018/11/wild-rice-soup-1-580x737.jpg",
+    "ingredients": "Wild rice, white beans, cashews and almond milk, miso paste and dijon mustard, scallions, mushrooms, celery, carrots, garlic, kale, rosemary and thyme, lemon juice.",
+    "price": "10",
+    "category": "soups",
+    "description": "The next time you have a day when all you want to do is pull on your biggest sweater and curl up on the couch, make this creamy wild rice soup. If you ask me, it’s the best kind of comfort food. It’s creamy and cozy, but it’s nourishing too. Colorful autumn veggies like carrots, celery, and mushrooms fleck its surface, and nutty wild rice and white beans make it nice and hearty. And as for that creamy broth? Well, there’s actually no heavy cream or dairy hiding inside it. Instead, it’s a wholesome, flavorful blend of white beans, cashews, almond milk, and white miso paste. It’s not at all traditional, but you’ll be heading back for a second bowl before you know it."
     }
 ]

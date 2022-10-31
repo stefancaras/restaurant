@@ -10,12 +10,11 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    <div>
         <div id="topnav" class="">
             <a id="logo" href="index.html">
-                <img id="logo-img" src="./img/owl.png" alt="" />
-                <span class="orangeText largerFont">Owl</span>
-                <span class="greenText largerFont">Books</span>
+                <img id="logo-img" src="./img/leaf.png" alt="" />
+                <p class="niconne largerFont">Rustic Restaurant</p>
             </a>
             <div id="searchForm" class="flexWrapCenter">
                 <input type="text" placeholder="Search..." id="search" />
@@ -24,19 +23,30 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
                 </a>
             </div>
             <div>
-                <a class="btn" href="cart.html">
-                    <i class="fas fa-basket-shopping marginRight"></i>Basket
-                </a>
-                <a class="btn" href="admin.html">
-                    <i class="fas fa-lock marginRight"></i>Admin
+                <a class="btn" href="contact.html">
+                    <i class="fa-solid fa-envelope marginRight"></i>Contact
                 </a>
             </div>
         </div>
-        <div class="flex">
-            <table class="table"></table>
-            <div class="loader"></div>
+        <div class="containerMenu">
+            <div class="centerAbs flexWrapCenter width100">
+                <div id="category">
+                    <input type="radio" name="category" id="radio1" class="radio" value="appetizers" checked>
+                    <label for="radio1" class="block label">Appetizers</label>
+                    <input type="radio" name="category" id="radio2" class="radio" value="soups">
+                    <label for="radio2" class="block label">Soups</label>
+                    <input type="radio" name="category" id="radio3" class="radio" value="mains">
+                    <label for="radio3" class="block label">Mains</label>
+                    <input type="radio" name="category" id="radio4" class="radio" value="desserts">
+                    <label for="radio4" class="block label">Desserts</label>
+                </div>
+                <table class="table"></table>
+            </div>
+            <img id="topLeft" src="./img/topLeft.png" alt="food">
+            <img id="bottomLeft" src="./img/bottomLeft.png" alt="food">
+            <img id="topRight" src="./img/topRight.png" alt="food">
+            <img id="bottomRight" src="./img/bottomRight.png" alt="food">
         </div>
-        <div class="footer"><p>Created by Stefan</p></div>
       </div>
       <script src="index.js"></script>
 </body>

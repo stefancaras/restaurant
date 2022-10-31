@@ -76,129 +76,44 @@ body {
   border-radius: 50%;
   right: 0.15rem;
 }
-
-/* Sidebar */
-#sidebar {
-  position: relative;
-  align-self: flex-start;
-  width: fit-content;
-  white-space: nowrap;
-  top: 100px;
-  left: 0;
-  padding: 20px;
-}
-
-/* Book list */
-.bookContainer {
-  position: relative;
-  align-self: flex-end;
-  top: 70px;
-}
-.card {
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  flex-direction: column;
-  width: 220px;
-  height: 600px;
-  margin: 10px;
-  padding: 10px;
-  background-color: #f6f6f6;
-  border-radius: 10px;
-}
-.bookImage {
-  width: 200px;
-  margin-bottom: 10px;
-}
-
-/* Footer */
-.footer {
-  text-align: center;
-  width: 100%;
-  font-weight: 300;
-  padding: 2rem;
-  border-top: 4px solid #375a7f;
-}
-
-/* Details page */
-.bookDetails {
-  width: 800px;
-  margin: 10px;
-  padding: 10px;
-  background-color: #f6f6f6;
-  border-radius: 10px;
-}
-.description {
-  max-width: 500px;
-}
-.confirm {
-  display: none;
+/* ID's */
+#topLeft {
   position: absolute;
-  width: 400px;
-  padding: 2rem;
-  background-color: #00bc8ddc;
-  text-align: center;
-  border-radius: 50px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left: 0;
+  top: 0;
 }
-
-/* Cart page */
-.basket {
-  margin: 10px auto 100px auto;
+#bottomLeft {
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
-.cartImg {
-  width: 80px;
+#topRight {
+  position: absolute;
+  right: 0;
+  top: 0;
 }
-.fa-plus:hover,
-.fa-minus:hover {
-  cursor:pointer;
-}
-
-.table {
-  width: 50vw;
-  border-collapse: collapse;
-  margin: 40px 0;
-  font-size: 0.9em;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
-}
-.table th {
-  background-color: #3498db;
-}
-.table th,
-.table td {
-  padding: 12px 15px;
-}
-.table tr {
-  border-bottom: thin solid #dddddd;
-}
-.table tr:nth-of-type(odd) {
-  background-color: #375a7f;
-}
-
-/* Form page */
-.form input {
-  margin: 10px 0;
+#bottomRight {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
 /* Tags */
 h1 {
   color: #181818;
-  text-shadow: 2px 2px #ffffff;
 }
 a {
   text-decoration: none;
+  color: #181818;
 }
 p {
   margin: 0.5rem;
 }
-label {
-  margin-top: 10px;
-}
 input[type=radio] {
-  margin-right: 0.3rem;
+  display: none;
+}
+input[type=radio]:checked + label {
+  background-color: #3498db;
 }
 textarea{
   margin: 10px 0;
@@ -265,7 +180,7 @@ hr {
 .flexWrapCenter {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 .dontAlign{
@@ -311,7 +226,7 @@ hr {
   color: #375a7f;
 }
 .marginTop {
-  margin-top: 60px;
+  margin-top: 200px;
 }
 .marginRight {
   margin-right: 0.4rem;
@@ -331,11 +246,12 @@ hr {
 .paddingBottom {
   padding-bottom: 1rem;
 }
-.bottomAbs {
+.centerAbs {
   position: absolute;
-  bottom: 0%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: 10;
 }
 .positionFixed {
   position: fixed;
@@ -354,10 +270,11 @@ hr {
   display: block;
   position: relative;
   padding: 1.5em 3em;
+  margin: 2rem;
   appearance: none;
   border: 0;
-  background: transparent;
-  color: #181818;
+  background: #d8a985;
+  /* color: #181818; */
   text-transform: uppercase;
   letter-spacing: 0.25em;
   outline: none;
@@ -368,7 +285,7 @@ hr {
   transition: background 0.8s ease;
 }
 .button:hover {
-  background: rgba(100, 0, 0, .03);
+  background: #d8a985;
 }
 .button__horizontal, .button__vertical {
   position: absolute;
@@ -411,4 +328,45 @@ hr {
 }
 .button:hover .button__vertical {
   transform: scaleY(0);
+}
+.signpost {
+  height: 300px;
+  width: 300px;
+  background-image: url(./img/signpost.png);
+}
+.border {
+  border: 1px solid;
+}
+.tableImg {
+  width: 120px;
+}
+.table {
+  width: 40%;
+  border-collapse: collapse;
+}
+.table tr {
+  border: 2px solid #181818;
+}
+.table td {
+  padding: 5px 0 0 5px;
+}
+.label {
+  background-color: #375a7f;
+  text-align: center;
+  padding: 10px 20px;
+  border: 1px solid;
+  border-bottom: none;
+  cursor: pointer;
+}
+.label:last-child {
+  border-bottom: 1px solid;
+}
+.containerMenu {
+  background-color: #fff9f4;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+}
+.width100 {
+  width: 100%;
 }
